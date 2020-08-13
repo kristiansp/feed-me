@@ -35,6 +35,9 @@ use craft\feedme\fields\TypedLink;
 use craft\feedme\fields\Users;
 use craft\helpers\Component as ComponentHelper;
 
+// Custom field type
+use craft\feedme\fields\VersionTags;
+
 class Fields extends Component
 {
     // Constants
@@ -126,6 +129,9 @@ class Fields extends Component
                 SmartMap::class,
                 SuperTable::class,
                 TypedLink::class,
+
+                // Custom
+                VersionTags::class,
             ],
         ]);
 
